@@ -36,7 +36,8 @@ if '__main__' == __name__:
 	check_tmp_dir()
 	url = str(input('insert tumblr profile url> '))
 	if not url:
-		url = 'https://010mmdd010.tumblr.com/'
+		# just a random profile i found cool
+		url = 'https://wekartu.tumblr.com/'
 	photos = get_photos_url(url)
 	for p in photos:
 		for i in tqdm(range(1)):
