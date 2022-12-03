@@ -40,6 +40,7 @@ if '__main__' == __name__:
 		url = 'https://wekartu.tumblr.com/'
 	photos = get_photos_url(url)
 	for p in photos:
+		print(f"Downloading {str(p['src']).split('/')[-1]}")
 		for i in tqdm(range(1)):
 			save_photo_locally(p)
 	print(f'Done! Your images have been saved in {tmp_dir}')
