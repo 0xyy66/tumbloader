@@ -14,4 +14,6 @@ python3 tumbloader.py
 
 Enter a url and done!
 
-The script will create a tmp directory in which all the images will be saved.![tumbloader](https://user-images.githubusercontent.com/72035730/205486154-160fcde7-b461-41b0-b785-49aaf3bda5e7.png)
+The script will create a directory for user in which all the images will be saved.
+
+![tumbloader](https://user-images.githubusercontent.com/72035730/205486154-160fcde7-b461-41b0-b785-49aaf3bda5e7.png)
